@@ -1,11 +1,9 @@
 import math
 import random
 import matplotlib.pyplot as plt
+# specify which coordinates you want to use by providing the name of the file and variable
 from coordinates_cluster_Γ import coordinates
-# Coordinates of the cities (latitude, longitude
 
-# Distance calculation using haversine formula
-# Distance calculation using haversine formula
 def distance(coord1, coord2):
     lat1, lon1 = coord1[1], coord1[2]
     lat2, lon2 = coord2[1], coord2[2]
